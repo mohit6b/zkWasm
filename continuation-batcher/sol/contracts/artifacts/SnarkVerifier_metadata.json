@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "proof",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "verify_instance",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "aux",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[][]",
+						"name": "target_instance",
+						"type": "uint256[][]"
+					}
+				],
+				"name": "verify",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"verify(uint256[],uint256[],uint256[],uint256[][])": {
+					"details": "snark verification stub"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"continuation-batcher/sol/contracts/BatchVerifier.sol": "SnarkVerifier"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 19
+		},
+		"remappings": []
+	},
+	"sources": {
+		"continuation-batcher/sol/contracts/AggregatorConfig.sol": {
+			"keccak256": "0xf759c7e2414c398e8233913bd6e9ab461e870a7a980b9d0201bcb5500351821f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b91f0f46a734717d58310b77ddd4598433cd36df19404fcd368e8e8a90ec0099",
+				"dweb:/ipfs/Qmbkz6R1XHuCKH9UsnCS9FM4HGGJdj6LBt4q3ehimiu7tF"
+			]
+		},
+		"continuation-batcher/sol/contracts/AggregatorLib.sol": {
+			"keccak256": "0x2b0a0177f1fdae972865d7010c86bb1d841de6d247a5ede691d170be1926d8c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://569d96781589b67ef4729604e0f4033c1417495ffd2952c0c4d1abbb1a76e3b6",
+				"dweb:/ipfs/QmQyiQLQuMckzhhqAg57185WYTrF9vfj84BiubrGjHT4Mi"
+			]
+		},
+		"continuation-batcher/sol/contracts/BatchVerifier.sol": {
+			"keccak256": "0xe4b20889023a0eb5a0a63d1030cbe6a5781a418118043ba167dc0357d0c75b3b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://503b0e128514658031f7b3bf17c23ab911735aa8fa8135bc56a2dbdf9ca597e6",
+				"dweb:/ipfs/QmVsMHYvyZZqgoznDXzUxhDenqBXvKzpyCmKp4svmjXxxY"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,35 @@
+# Ignore build artifacts
+
+target/
+
+
+
+# Ignore IDE configuration files
+
+*.iml
+
+*.idea/
+
+
+
+# Ignore system-specific files
+
+.DS_Store
+
+Thumbs.db
+
+*node_modules/*
+
+node_modules
+
+
+
+# Ignore lock files for package manager
+
+Cargo.lock
+
+
+
+# Ignore personal configuration
+
+.cargo/config

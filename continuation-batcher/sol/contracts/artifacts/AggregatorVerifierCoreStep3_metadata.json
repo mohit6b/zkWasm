@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "transcript",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "aux",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "buf",
+						"type": "uint256[]"
+					}
+				],
+				"name": "verify_proof",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"continuation-batcher/sol/contracts/AggregatorVerifierStep3.sol": "AggregatorVerifierCoreStep3"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 19
+		},
+		"remappings": []
+	},
+	"sources": {
+		"continuation-batcher/sol/contracts/AggregatorLib.sol": {
+			"keccak256": "0x2b0a0177f1fdae972865d7010c86bb1d841de6d247a5ede691d170be1926d8c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://569d96781589b67ef4729604e0f4033c1417495ffd2952c0c4d1abbb1a76e3b6",
+				"dweb:/ipfs/QmQyiQLQuMckzhhqAg57185WYTrF9vfj84BiubrGjHT4Mi"
+			]
+		},
+		"continuation-batcher/sol/contracts/AggregatorVerifierStep3.sol": {
+			"keccak256": "0xa4f013cd37b9968c4cb1f97d36a4fdb24ad5266513602633596da72b74f55de7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0de878896b8575671ca6cfcffb462af5c6f52a398dc8a969da226f30c249a50",
+				"dweb:/ipfs/QmXem7g3D4bbjCAH9KBr1CNd3z2q6KeGAbcRnjBabS9tkK"
+			]
+		}
+	},
+	"version": 1
+}
